@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function Modernizing() {
@@ -14,8 +15,8 @@ function Modernizing() {
             </h4>
           </div>
           <p className="text-[#71717a] dark:text-dark-text-tertiary max-w-screen-md text-pretty text-center text-lg font-light md:text-xl">
-            Data center software (DCIM, BMS and EPMS) has stagnated. We've built
-            a better way.
+            Data center software (DCIM, BMS and EPMS) has stagnated. We&apos;ve
+            built a better way.
           </p>
         </div>
 
@@ -34,10 +35,13 @@ function Modernizing() {
                   aspectRatio: "16/9",
                 }}
               >
-                <img
+                <Image
                   src="https://www.centralaxis.com/posters/monitoring.png"
                   alt="Video poster"
+                  width={800} // adjust based on layout needs
+                  height={450} // adjust based on layout needs
                 />
+
                 <video
                   autoPlay
                   loop
@@ -123,9 +127,11 @@ function Modernizing() {
                   aspectRatio: "16/9",
                 }}
               >
-                <img
+                <Image
                   src="https://www.centralaxis.com/posters/networking.png"
                   alt="Video poster"
+                  width={800} // adjust based on layout needs
+                  height={450} // adjust based on layout needs
                 />
                 <video
                   autoPlay
@@ -151,10 +157,12 @@ function Modernizing() {
             <div className="flex flex-col gap-8 p-5 pt-6 md:flex-1 md:p-10">
               <div className="flex flex-col items-start gap-2">
                 <h5 className="text-gray-200 dark:text-dark-text-primary text-2xl font-medium md:text-3xl">
-                 Network Management and Monitoring
+                  Network Management and Monitoring
                 </h5>
                 <p className="text-[#a1a1aa] dark:text-dark-text-secondary font-normal md:text-lg">
-                  Comprehensive network monitoring and management that ensures optimal performance, security, and reliability across your entire data center infrastructure.
+                  Comprehensive network monitoring and management that ensures
+                  optimal performance, security, and reliability across your
+                  entire data center infrastructure.
                 </p>
               </div>
               <ul className="flex flex-col items-start gap-3 pl-2 md:text-lg">
@@ -194,11 +202,7 @@ function Modernizing() {
             </div>
           </article>
 
-
-
-
-
-                    {/* Advanced Monitoring Block */}
+          {/* Advanced Monitoring Block */}
           <article className="bg-[#18181b] border-[#18181b] flex min-h-96 w-full max-w-[380px] flex-col rounded-lg border border-border p-px sm:max-w-full md:w-full md:flex-row md:odd:flex-row-reverse xl:gap-16">
             <figure className="p-2 md:h-auto md:w-[360px] lg:w-[480px] xl:w-[560px]">
               <div
@@ -212,10 +216,8 @@ function Modernizing() {
                   aspectRatio: "16/9",
                 }}
               >
-                <img
-                  src="#"
-                  alt=""
-                />
+               
+
                 <video
                   autoPlay
                   loop
@@ -243,7 +245,9 @@ function Modernizing() {
                   Asset Management
                 </h5>
                 <p className="text-[#a1a1aa] dark:text-dark-text-secondary font-normal md:text-lg">
-                 Streamline your data center operations with our comprehensive asset management system. Track, maintain, and optimize your infrastructure with precision and ease.
+                  Streamline your data center operations with our comprehensive
+                  asset management system. Track, maintain, and optimize your
+                  infrastructure with precision and ease.
                 </p>
               </div>
               <ul className="flex flex-col items-start gap-3 pl-2 md:text-lg">
@@ -298,10 +302,7 @@ function Modernizing() {
                   aspectRatio: "16/9",
                 }}
               >
-                <img
-                  src="#"
-                  alt=""
-                />
+               
                 <video
                   autoPlay
                   loop
@@ -326,10 +327,11 @@ function Modernizing() {
             <div className="flex flex-col gap-8 p-5 pt-6 md:flex-1 md:p-10">
               <div className="flex flex-col items-start gap-2">
                 <h5 className="text-gray-200 dark:text-dark-text-primary text-2xl font-medium md:text-3xl">
-                 A Single Pane of Glass
+                  A Single Pane of Glass
                 </h5>
                 <p className="text-[#a1a1aa] dark:text-dark-text-secondary font-normal md:text-lg">
-                 A unified view across all of your BMS and EPMS systems, tailored to your needs.
+                  A unified view across all of your BMS and EPMS systems,
+                  tailored to your needs.
                 </p>
               </div>
               <ul className="flex flex-col items-start gap-3 pl-2 md:text-lg">
@@ -369,13 +371,7 @@ function Modernizing() {
             </div>
           </article>
 
-
-
-
-
-
-
-                    {/* Advanced Monitoring Block */}
+          {/* Advanced Monitoring Block */}
           <article className="bg-[#18181b] border-[#18181b] flex min-h-96 w-full max-w-[380px] flex-col rounded-lg border border-border p-px sm:max-w-full md:w-full md:flex-row md:odd:flex-row-reverse xl:gap-16">
             <figure className="p-2 md:h-auto md:w-[360px] lg:w-[480px] xl:w-[560px]">
               <div
@@ -389,10 +385,7 @@ function Modernizing() {
                   aspectRatio: "16/9",
                 }}
               >
-                <img
-                  src="#"
-                  alt=""
-                />
+              
                 <video
                   autoPlay
                   loop
@@ -417,10 +410,10 @@ function Modernizing() {
             <div className="flex flex-col gap-8 p-5 pt-6 md:flex-1 md:p-10">
               <div className="flex flex-col items-start gap-2">
                 <h5 className="text-gray-200 dark:text-dark-text-primary text-2xl font-medium md:text-3xl">
-                 Built-In Compliance
+                  Built-In Compliance
                 </h5>
                 <p className="text-[#a1a1aa] dark:text-dark-text-secondary font-normal md:text-lg">
-                 CentralAxis provides compliance as a service for data centers.
+                  CentralAxis provides compliance as a service for data centers.
                 </p>
               </div>
               <ul className="flex flex-col items-start gap-3 pl-2 md:text-lg">
@@ -473,11 +466,7 @@ function Modernizing() {
                   width: "100%",
                   aspectRatio: "16/9",
                 }}
-              >
-                <img
-                  src="#"
-                  alt=""
-                />
+              >            
                 <video
                   autoPlay
                   loop
@@ -502,10 +491,12 @@ function Modernizing() {
             <div className="flex flex-col gap-8 p-5 pt-6 md:flex-1 md:p-10">
               <div className="flex flex-col items-start gap-2">
                 <h5 className="text-gray-200 dark:text-dark-text-primary text-2xl font-medium md:text-3xl">
-                 Data Center Planning
+                  Data Center Planning
                 </h5>
                 <p className="text-[#a1a1aa] dark:text-dark-text-secondary font-normal md:text-lg">
-                 Want to support the latest and greatest architectures on the market? Modern GPUs and even CPUs are more water and energy intensive than ever.
+                  Want to support the latest and greatest architectures on the
+                  market? Modern GPUs and even CPUs are more water and energy
+                  intensive than ever.
                 </p>
               </div>
               <ul className="flex flex-col items-start gap-3 pl-2 md:text-lg">
@@ -544,14 +535,6 @@ function Modernizing() {
               </ul>
             </div>
           </article>
-
-
-
-
-
-
-
-
         </div>
       </section>
     </div>

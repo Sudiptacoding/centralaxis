@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function BookADemo() {
@@ -8,12 +9,14 @@ function BookADemo() {
           className="border-[#0d1117] dark:bg-dark-surface-secondary h-[250px] relative flex flex-col items-center justify-center gap-9 self-stretch overflow-hidden rounded-xl border border-border p-6"
           aria-label="Book a Demo Invitation"
         >
-          <img
-            className="absolute left-0 top-0 h-full w-full object-cover"
+          <Image
             src="https://www.centralaxis.com/background.png"
             alt="Blurred background image"
+            fill
+            className="object-cover"
             style={{ filter: "blur(3px)" }}
             aria-hidden="true"
+            priority // if it's a key visual and important for LCP
           />
 
           <div

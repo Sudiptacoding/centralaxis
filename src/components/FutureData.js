@@ -9,7 +9,7 @@ function FutureData() {
    
     <div className="flex flex-col gap-2">
       <h4 className="text-[#fafafa] dark:text-dark-text-primary text-3xl font-medium lg:text-4xl">
-        We've Built the Future of Data Centers
+        We&apos;ve Built the Future of Data Centers
       </h4>
       <p className="text-[#a1a1aa] dark:text-dark-text-secondary text-lg lg:text-xl">
         Contact our team for a demo

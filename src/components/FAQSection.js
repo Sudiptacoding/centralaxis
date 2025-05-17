@@ -67,8 +67,8 @@ function FAQSection() {
               How do I get started?
             </p>
             <p className="text-[#71717a] dark:text-dark-text-tertiary text-sm leading-relaxed tracking-tight sm:text-base">
-              Set up a demo and we'll guide you through our offerings and start
-              a trial!
+            Set up a demo and we&apos;ll guide you through our offerings and start a trial!
+
             </p>
           </li>
         </ul>

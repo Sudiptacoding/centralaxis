@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function DynamicResource() {
@@ -31,14 +32,14 @@ function DynamicResource() {
           <div className="no-scrollbar flex gap-10 overflow-auto px-6 lg:flex-col lg:px-0">
             <article className="bg-[#18181b] border-[#18181b] dark:bg-dark-surface-secondary flex w-[280px] shrink-0 flex-col gap-4 rounded-lg border border-border p-4 lg:w-full lg:flex-row lg:p-5">
               <figure className="bg-gray-50 dark:bg-dark-surface-tertiary flex size-12 shrink-0 items-center justify-center rounded-full p-3">
-                <img
-                  alt="Resource Management Icon"
-                  loading="lazy"
-                  width="24"
-                  height="24"
-                  decoding="async"
-                  className="dark:invert"
+                <Image
                   src="https://assets.basehub.com/fa068a12/4tjfOxi91wk29BRy6jH1p/mail.svg"
+                  alt="Resource Management Icon"
+                  width={24}
+                  height={24}
+                  loading="lazy"
+                  className="dark:invert"
+                  priority={false}
                 />
               </figure>
               <div className="flex flex-col items-start gap-1">
@@ -52,14 +53,14 @@ function DynamicResource() {
 
             <article className="bg-[#18181b] border-[#18181b] dark:bg-dark-surface-secondary flex w-[280px] shrink-0 flex-col gap-4 rounded-lg border border-border p-4 lg:w-full lg:flex-row lg:p-5">
               <figure className="bg-gray-50 dark:bg-dark-surface-tertiary flex size-12 shrink-0 items-center justify-center rounded-full p-3">
-                <img
-                  alt="Deployment Automation Icon"
-                  loading="lazy"
-                  width="24"
-                  height="24"
-                  decoding="async"
-                  className="dark:invert"
+                <Image
                   src="https://assets.basehub.com/fa068a12/xGzl38RZpWQq8bij8Hzhu/zap.svg"
+                  alt="Resource Management Icon"
+                  width={24}
+                  height={24}
+                  loading="lazy"
+                  className="dark:invert"
+                  priority={false}
                 />
               </figure>
               <div className="flex flex-col items-start gap-1">
@@ -73,14 +74,14 @@ function DynamicResource() {
 
             <article className="bg-[#18181b] border-[#18181b] dark:bg-dark-surface-secondary flex w-[280px] shrink-0 flex-col gap-4 rounded-lg border border-border p-4 lg:w-full lg:flex-row lg:p-5">
               <figure className="bg-gray-50 dark:bg-dark-surface-tertiary flex size-12 shrink-0 items-center justify-center rounded-full p-3">
-                <img
-                  alt="Networking Icon"
-                  loading="lazy"
-                  width="24"
-                  height="24"
-                  decoding="async"
-                  className="dark:invert"
+                <Image
                   src="https://assets.basehub.com/fa068a12/bp99UZ-NioE-mvd_ZLLh-/bar-chart-2.svg"
+                  alt="Resource Management Icon"
+                  width={24}
+                  height={24}
+                  loading="lazy"
+                  className="dark:invert"
+                  priority={false}
                 />
               </figure>
               <div className="flex flex-col items-start gap-1">
@@ -94,14 +95,14 @@ function DynamicResource() {
 
             <article className="bg-[#18181b] border-[#18181b] dark:bg-dark-surface-secondary flex w-[280px] shrink-0 flex-col gap-4 rounded-lg border border-border p-4 lg:w-full lg:flex-row lg:p-5">
               <figure className="bg-gray-50 dark:bg-dark-surface-tertiary flex size-12 shrink-0 items-center justify-center rounded-full p-3">
-                <img
-                  alt="Firmware Versioning Icon"
-                  loading="lazy"
-                  width="24"
-                  height="24"
-                  decoding="async"
-                  className="dark:invert"
+                <Image
                   src="https://assets.basehub.com/fa068a12/ZJG_2vVCKgVzSUrxdDMHo/smile.svg"
+                  alt="Resource Management Icon"
+                  width={24}
+                  height={24}
+                  loading="lazy"
+                  className="dark:invert"
+                  priority={false}
                 />
               </figure>
               <div className="flex flex-col items-start gap-1">
@@ -115,14 +116,14 @@ function DynamicResource() {
 
             <article className="bg-[#18181b] border-[#18181b] dark:bg-dark-surface-secondary flex w-[280px] shrink-0 flex-col gap-4 rounded-lg border border-border p-4 lg:w-full lg:flex-row lg:p-5">
               <figure className="bg-gray-50 dark:bg-dark-surface-tertiary flex size-12 shrink-0 items-center justify-center rounded-full p-3">
-                <img
-                  alt="Digital Twins Icon"
-                  loading="lazy"
-                  width="24"
-                  height="24"
-                  decoding="async"
-                  className="dark:invert"
+                <Image
                   src="https://assets.basehub.com/fa068a12/IDiRkDVimmZ2V_id1-FX7/command.svg"
+                  alt="Resource Management Icon"
+                  width={24}
+                  height={24}
+                  loading="lazy"
+                  className="dark:invert"
+                  priority={false}
                 />
               </figure>
               <div className="flex flex-col items-start gap-1">
